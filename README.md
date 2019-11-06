@@ -1,2 +1,2 @@
 # Saintix
-A website for finding the best sellers of tickets around St Andrews
+A website for finding ticket sellers for the best events in St Andrews.
