@@ -30,6 +30,7 @@ time, mark, audio, video {
 body {
     line-height:1;
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    font-family: 'Ruda', sans-serif;
 }
 
 article,aside,details,figcaption,figure,
@@ -114,7 +115,6 @@ padding: 0;
 }
 
 body {
-  font-family: "Helvetica Nue", Arial;
   font-size: 18px;
   text-align: center;
   text-indent: 20px;
@@ -204,24 +204,24 @@ body {
                           background-position: right;
 }
 .img-nobelball1 {
-          width: 290px;
-          height: 180px;
+          width: 300px;
+          height: 200px;
           background-image: url(img/wellyball1);
           background-size: 20%;
           background-repeat: no-repeat;
           background-position: right;
 }
 .img-nobelball2 {
-          width: 280px;
-          height: 180px;
+          width: 300px;
+          height: 200px;
           background-image: url(img/wellyball1);
           background-size: 20%;
           background-repeat: no-repeat;
           background-position: right;
   }
   .img-nobelball3 {
-            width: 290px;
-            height: 180px;
+            width: 300px;
+            height: 200px;
             background-image: url(img/wellyball1);
             background-size: 20%;
             background-repeat: no-repeat;
