@@ -6,27 +6,18 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html{
     margin-top:10px;
-    padding:0;
+    padding:25px;
     border:0;
     outline:0;
     vertical-align:baseline;
     font-size:100%;
-    background-color:#5CA9C4;
+    background-color:rgb(250, 154, 133);
     align-content: center;
     font-size-adjust: auto;
+
+
 
 
 }
@@ -330,8 +321,8 @@ padding: 0;
                                                 background-position: right;
                                           }
                                     .img-art1.jpg {
-                                      width: 200px;
-                                      height: 180px;
+                                      width: 50px;
+                                      height: 60px;
                                       background-image: url(img/art1);
                                       background-size: 10%;
                                       background-repeat: no-repeat;
@@ -364,6 +355,7 @@ a {
     vertical-align:baseline;
     background:transparent;
     margin-bottom:20px;
+    font-color: black;
 }
 
 p{
@@ -396,4 +388,48 @@ button:hover {
 #navbar {
   font-size-adjust: auto;
   align-self: center;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: transparent;
+  padding: 25px;
+  grid-row-gap: 25px;
+  grid-column-gap: 25px;
+
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: transparent;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-size-adjust: auto;
+  background-color: rgb(250, 154, 133);
+  line-height: inherit;
+  font-color: black;
+}
+.grid-item:hover{
+  background-color: rgb(255, 111, 97);
+
+.date {
+  background-color: inherit;
+}
+body{
+  background-color: rgb(250, 154, 133)}
+
+#one {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#two {
+
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+p {
+  margin-top: 10px;
 }
