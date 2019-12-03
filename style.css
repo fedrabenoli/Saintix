@@ -5,20 +5,40 @@ Last Updated: 2010-09-17
 Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
-
-html{
+html {
     margin-top:10px;
+    padding:0;
     padding:25px;
     border:0;
     outline:0;
     vertical-align:baseline;
     font-size:100%;
+    background-color:#5CA9C4;
     background-color:rgb(250, 154, 133);
     align-content: center;
     font-size-adjust: auto;
 
+p {
+  margin-top: 10px;
+  padding: 0;
+  padding: 25px;
+  vertical-align: baseline;
+  font-size: 100%
+  fomt-size-adjust: auto;
+}
+h3 {   margin-top:10px;
+  padding:0;
+  padding:25px;
+  border:0;
+  outline:0;
+  vertical-align:baseline;
+  font-size:100%;
+  background-color:#5CA9C4;
+  background-color:rgb(250, 154, 133);
+  align-content: center;
+  font-size-adjust: auto;
 
-
+}
 
 }
 header {
@@ -432,4 +452,8 @@ body{
 
 p {
   margin-top: 10px;
+}
+h3 {
+  height: auto;
+  line-height: inherit;
 }
