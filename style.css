@@ -37,7 +37,7 @@ a {
       vertical-align:baseline;
       background:transparent;
       margin-bottom:20px;
-      font-color: black;
+      color: white;
   }
 
 article,aside,details,figcaption,figure,
@@ -48,7 +48,7 @@ button{
       color: #086788;
       font-size: 15px;
       border-radius: 2px;
-      font-family: 'Bebas Neue', normal;
+      font-family: 'Indie Flower', cursive;
       width:75px;
       -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -68,7 +68,7 @@ button:hover {
 
   h1 {
     font-size:16px;
-    font-style: bold;
+    font-family: 'Tajawal', sans-serif;
     margin-bottom:0px;
     line-height:normal;
   }
@@ -338,11 +338,11 @@ padding: 0;
 
 
 #title {
-  font-size: 50px;
+  font-size: 60px;
   font-style: normal;
   font-size-adjust: auto;
   text-decoration: underline;
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Indie Flower', cursive;
 }
 #navbar {
   font-size-adjust: auto;
@@ -441,7 +441,6 @@ padding: 0;
   grid-row-end: 3;
   grid-column-start:2;
   grid-column-end:3;
-  background-color: rgb(135, 206, 250);
 
 }
 #nine:hover {
