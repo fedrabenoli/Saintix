@@ -14,7 +14,7 @@ html {
     vertical-align:baseline;
     font-size:100%;
     background-color:#5CA9C4;
-    background-color:rgb(0, 0, 255);
+    background-color:rgb(51, 153, 255);
     align-content: center;
     font-size-adjust: auto;
   }
@@ -356,31 +356,101 @@ padding: 0;
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   background-color: transparent;
   padding: 25px;
   grid-row-gap: 25px;
   grid-column-gap: 25px;
+  border-style: dotted;
+  border-radius: 40px;
 
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: transparent;
+  background-image: url("http://www.talencia.cat/mypics/max/2/25461_hd-images-for-website-background.png");
+  background-repeat:no-repeat;
+  background-size: cover;
   padding: 20px;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
   font-size-adjust: auto;
-  background-color: rgb(255, 255, 255, 0.8);
   line-height: inherit;
-  font-color: black;
+  border-style: solid;
+  border-color: grey;
+
+
 }
 .grid-item:hover{
+  background-image: none;
   background-color: rgb(135, 206, 250);
 }
 
-.date {
-  background-color: inherit;
+#one {
+  grid-row-start:4;
+  grid-row-end: 7;
+  grid-column-start:3;
+  grid-column-end:4;
+
 }
+
+#two {
+  grid-row-start:1;
+  grid-row-end: 3;
+  grid-column-start:3;
+  grid-column-end:4;
+}
+
+#three {
+  grid-row-start:2;
+  grid-row-end: 4;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+#four {
+  grid-row-start:4;
+  grid-row-end: 5;
+  grid-column-start:2;
+  grid-column-end:3;
+}
+#five {
+
+  grid-row-start:4;
+  grid-row-end: 7;
+  grid-column-start:1;
+  grid-column-end:2;
+}
+
+#six {
+  grid-row-start:3;
+  grid-row-end: 4;
+  grid-column-start:2;
+  grid-column-end:4;
+}
+#seven {
+  grid-row-start:5;
+  grid-row-end: 8;
+  grid-column-start:2;
+  grid-column-end:3;
+
+}
+#eight {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+}
+#nine {
+  grid-row-start:2;
+  grid-row-end: 3;
+  grid-column-start:2;
+  grid-column-end:3;
+  background-color: rgb(135, 206, 250);
+
+}
+#nine:hover {
+  background-color: rgb(135, 206, 250) ;
+}
+
 
 /*#one {
   grid-row-start: 1;
