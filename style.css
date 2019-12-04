@@ -195,48 +195,48 @@ padding: 0;
               background-position: right;
 }
 .img-christmasball1 {
-          width: 310px;
-          height: 180px;
+          width: 500px;
+          height: auto;
           background-image: url(img/wellyball1);
           background-size: 20%;
           background-repeat: no-repeat;
           background-position: right;
     }
         .img-christmasball2 {
-                  width: 310px;
-                  height: 180px;
+                  width: 500px;
+                  height: auto;
                   background-image: url(img/wellyball1);
                   background-size: 20%;
                   background-repeat: no-repeat;
                   background-position: right;
                 }
                 .img-christmasball3 {
-                          width: 310px;
-                          height: 180px;
+                          width: 500px;
+                          height: auto;
                           background-image: url(img/wellyball1);
                           background-size: 20%;
                           background-repeat: no-repeat;
                           background-position: right;
 }
 .img-nobelball1 {
-          width: 300px;
-          height: 200px;
+          width: 500px;
+          height: auto;
           background-image: url(img/wellyball1);
           background-size: 20%;
           background-repeat: no-repeat;
           background-position: right;
 }
 .img-nobelball2 {
-          width: 300px;
-          height: 200px;
+          width: 500px;
+          height: auto;
           background-image: url(img/wellyball1);
           background-size: 20%;
           background-repeat: no-repeat;
           background-position: right;
   }
   .img-nobelball3 {
-            width: 300px;
-            height: 200px;
+            width: 500px;
+            height: auto;
             background-image: url(img/wellyball1);
             background-size: 20%;
             background-repeat: no-repeat;
